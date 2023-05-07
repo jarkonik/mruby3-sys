@@ -1,0 +1,14 @@
+--- bindings.rs	2023-05-07 15:43:06.839972222 +0200
++++ bindings_patched.rs	2023-05-07 15:54:14.266686099 +0200
+@@ -5486,11 +5486,6 @@
+ extern "C" {
+     pub static mut signgam: ::std::os::raw::c_int;
+ }
+-pub const FP_NAN: _bindgen_ty_1 = 0;
+-pub const FP_INFINITE: _bindgen_ty_1 = 1;
+-pub const FP_ZERO: _bindgen_ty_1 = 2;
+-pub const FP_SUBNORMAL: _bindgen_ty_1 = 3;
+-pub const FP_NORMAL: _bindgen_ty_1 = 4;
+ pub type _bindgen_ty_1 = ::std::os::raw::c_uint;
+ #[doc = " MRuby C API entry point"]
+ pub type mrb_code = u8;
